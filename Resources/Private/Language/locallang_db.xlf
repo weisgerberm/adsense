@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="EXT:adsense/Resources/Private/Language/locallang_db" date="2024-02-2609:07:16Z" product-name="darf_ich_mit_ads">
+        <header>
+            <!--This translation file was generated automatically by the "datamints_locallang_builder" extension. Please note that changes to this file can be lost the next time someone triggers an export in the TYPO3 Backend-module-->
+        </header>
+        <body>
+            <trans-unit id="tx_adsense_domain_model_display" resname="tx_adsense_domain_model_display" approved="yes">
+                <source>Advertisement display</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
