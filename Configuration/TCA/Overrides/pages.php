@@ -4,13 +4,15 @@ use Weisgerber\DarfIchMit\Utility\TcaUtility;
 
 defined('TYPO3') || die();
 $tmp_adsense_columns = [
-
     'enable_adsense' => [
         'exclude' => true,
         'label' => 'Enable Adsense',
         'config' => [
             'type' => 'check',
             'renderType' => 'checkboxToggle',
+			'behaviour' => [
+				'allowLanguageSynchronization' => true,
+			],
             'items' => [
                 [
                     0 => '',
