@@ -9,6 +9,9 @@ $tmp_adsense_columns = [
             'type' => 'select',
             'renderType' => 'selectSingle',
 			'foreign_table' => 'tx_adsense_domain_model_display',
+			'behaviour' => [
+				'allowLanguageSynchronization' => true,
+			],
 			'items' => [
 				[
 					'label' => '---',
@@ -24,6 +27,9 @@ $tmp_adsense_columns = [
             'type' => 'select',
             'renderType' => 'selectSingle',
 			'foreign_table' => 'tx_adsense_domain_model_display',
+			'behaviour' => [
+				'allowLanguageSynchronization' => true,
+			],
 			'items' => [
 				[
 					'label' => '---',
