@@ -22,7 +22,7 @@ return [
 				TcaUtility::tab(
 					null,
 					[
-						'title',
+						'title','code'
 					]
 				)
 		],
@@ -34,7 +34,12 @@ return [
 			'title' => [
 				'exclude' => true,
 				'label' => "Title",
-				'config' => TcaUtility::getInput(),
+				'config' => TcaUtility::getInput(true),
+			],
+			'code' => [
+				'exclude' => true,
+				'label' => "Title",
+				'config' => TcaUtility::getText(true),
 			],
 		]
 	),

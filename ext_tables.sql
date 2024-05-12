@@ -1,7 +1,8 @@
 -- A
 CREATE TABLE tx_adsense_domain_model_display
 (
-    title varchar(255) NOT NULL DEFAULT ''
+    title       varchar(255) NOT NULL DEFAULT '',
+    code text,
 );
 -- P
 CREATE TABLE pages
@@ -12,5 +13,5 @@ CREATE TABLE pages
 CREATE TABLE tt_content
 (
     adsense_display_before varchar(255) NOT NULL DEFAULT '',
-    adsense_display_after varchar(255) NOT NULL DEFAULT ''
+    adsense_display_after  varchar(255) NOT NULL DEFAULT ''
 );
