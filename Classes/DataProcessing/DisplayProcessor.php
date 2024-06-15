@@ -20,6 +20,7 @@ class DisplayProcessor implements DataProcessorInterface
 	 */
 	public function process(ContentObjectRenderer $cObj, array $contentObjectConfiguration, array $processorConfiguration, array $processedData)
 	{
+		DebuggerUtility::var_dump("asd");
 		if($processedData['data']['adsense_display_before'] || $processedData['data']['adsense_display_after']) {
 			/** @var DisplayRepository $displayRepository */
 			$displayRepository = GeneralUtility::makeInstance(DisplayRepository::class);

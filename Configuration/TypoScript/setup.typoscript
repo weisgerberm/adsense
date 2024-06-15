@@ -7,3 +7,13 @@ lib.contentElement {
     }
 
 }
+
+lib.block {
+    dataProcessing {
+        1715451923 = Weisgerber\Adsense\DataProcessing\DisplayProcessor
+        1715451923 {
+            as = adsenseDisplays
+        }
+    }
+
+}
