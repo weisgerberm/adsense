@@ -1,8 +1,8 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'Adsense',
-    'description' => '',
+    'title' => 'google Adsense',
+    'description' => 'Inserts google Adsense ad units before or after other content elements',
     'category' => 'frontend',
     'author' => 'Mark Weisgerber',
     'author_email' => 'mark.weisgerber@outlook.de',
@@ -17,3 +17,4 @@ $EM_CONF[$_EXTKEY] = [
         'suggests' => [],
     ],
 ];
+
